@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Events App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚀 Live Demo
+[Click here to view the demo](https://Darshanas17.github.io/react-events-app/)
 
-## Available Scripts
+## 📌 Overview
+The **Events App** is a dynamic React application that allows users to browse through a list of events and interact with their registration statuses. The UI updates based on user interactions, offering a smooth and responsive experience.
 
-In the project directory, you can run:
+## ✨ Features
+- **View Events List:** Browse a list of interesting events.
+- **Dynamic Registration Status:** The registration status updates based on the selected event.
+- **Multiple States:** Displays views such as "Yet to Register", "Registered", "Registrations Closed", and "No Active Event".
+- **Responsive Design:** Fully optimized layout for large screens.
 
-### `npm start`
+## 🛠️ Tech Stack
+- **React.js** - Frontend UI
+- **CSS** - Styling
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ⚙️ Installation & Setup
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Darshanas17/react-events-app.git
+   cd react-events-app
+   ```
 
-### `npm test`
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Run the Application**
+   ```bash
+   npm start
+   ```
 
-### `npm run build`
+4. Open the browser and go to `http://localhost:3000/` to use the app.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📁 Components Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Events** (`src/components/Events/`)
+- **EventItem** (`src/components/EventItem/`)
+- **ActiveEventRegistrationDetails** (`src/components/ActiveEventRegistrationDetails/`)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎯 Functionality
+- Clicking an event will show its registration status dynamically.
+- Different visual states are rendered depending on the event's registration status.
+- States include:
+  - No Active Event
+  - Yet to Register
+  - Registered
+  - Registrations Closed
 
-### `npm run eject`
+## 🎨 Design & Assets
+- Fonts: **Roboto**
+- Colors:
+  - `#0967d2` (Primary)
+  - `#ffffff` (Background)
+  - `#64748b` (Text)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 📸 Screenshots
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### 🎬 App Demo
+![Events Output](https://assets.ccbp.in/frontend/content/react-js/events-output.gif)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### 📷 Screens
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **No Active Event**  
+  ![No Active Event](https://assets.ccbp.in/frontend/content/react-js/events-no-active-event-view-output.png)
 
-## Learn More
+- **Yet To Register**  
+  ![Yet To Register](https://assets.ccbp.in/frontend/content/react-js/events-yet-to-register-view-output.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Registered**  
+  ![Registered](https://assets.ccbp.in/frontend/content/react-js/events-registered-view-output.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Registrations Closed**  
+  ![Registrations Closed](https://assets.ccbp.in/frontend/content/react-js/events-registrations-closed-view-output.png)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 👨‍💻 Author
+**Darshan A S**  
+- [LinkedIn](https://www.linkedin.com/in/darshan-a-s/)  
+- [Portfolio](https://darshanas17.github.io/darshan-as-17-portfolio/)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📜 License
+This project is licensed under the **MIT License**.
